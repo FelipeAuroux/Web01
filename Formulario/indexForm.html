@@ -1,0 +1,124 @@
+<htmllang="pt-br">
+    <head>
+        <title>Descomplica - Genshin</title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="imagens/icon.webp">
+        <link rel="stylesheet" type="text/css" href="../elementos.css">
+    </head>
+
+    <body id="body1">
+
+        <iframe src="../menu.html" width="100%" height="100%" frameborder="0"></iframe>
+
+<div id="divsub">
+
+<form><fieldset id="fieldset-fora">
+
+    <legend>Registro</legend>
+       <fieldset id="fieldset-dentro">
+       <legend>Login</legend>
+       <div>
+           <label for="email" >E-mail: </label>
+           <input type="email" id="email" name="email" placeholder="Digite um e-mail" required>
+           </div>
+       <div>
+           <label for="imagem" >Imagem de perfil:</label>
+           <input type="file" id="img" name="imagem" >
+           </div>
+       <div>
+           <label for="login" >Login: </label>
+           <input type="text" id="login" name="login" required>
+           </div>
+       <div>
+           <label for="pass" >Senha: </label>
+           <input type="password" name="pass" id="senha" placeholder="8 caracteres numéricos" minlength="8" pattern="[0-9]+"  required>
+           </div>
+       <div>
+           <label for="passconfirm" >Confirme a senha: </label>
+           <input type="password" id="senhaconfirm" name="passconfirm" minlength="8" pattern="[0-9]+"  required>
+           </div>
+       </fieldset>
+   <fieldset id="fieldset-dentro">
+   <legend>Dados Pessoais</legend>
+   <div>
+       <label for="nome" >Nome: </label>
+       <input type=text name="nome" id="nome" size="50px" required>
+       </div>
+   <div>
+       <label for="nascimento" > Data de nascimento: </label>
+       <input type="date" name="nascimento" id="nascimento" required>
+       </div>
+   <div>
+       <label for="cidade" > Cidade: </label>
+       <input type="text" name="cidade" id="cidade">
+       <label for="estado" > Estado: </label>
+       <select name="uf" id="uf">
+           <option value="">UF</option>
+           <option value="RO">RO</option>
+           <option value="AC">AC</option>
+           <option value="AM">AM</option>
+           <option value="RR">RR</option>
+           <option value="PA">PA</option>
+           <option value="AP">AP</option>
+           <option value="TO">TO</option>
+           <option value="MA">MA</option>
+           <option value="PI">PI</option>
+           <option value="CE">CE</option>
+           <option value="RN">RN</option>
+           <option value="PB">PB</option>
+           <option value="PE">PE</option>
+           <option value="AL">AL</option>
+           <option value="SE">SE</option>
+           <option value="BA">BA</option>
+           <option value="MG">MG</option>
+           <option value="ES">ES</option>
+           <option value="RJ">RJ</option>
+           <option value="SP">SP</option>
+           <option value="PR">PR</option>
+           <option value="SC">SC</option>
+           <option value="RS">RS</option>
+           <option value="MS">MS</option>
+           <option value="MT">MT</option>
+           <option value="GO">GO</option>
+           <option value="DF">DF</option>
+           </select>
+           </div>
+   <div>
+       <label for="sexo" >Sexo:</label><br>
+       <input type="radio" id="sexo-m" name="sexo" value="masculino">
+       <label for="semo-m">Masculino</label>
+       <input type="radio" id="sexo-f" name="sexo" value="feminino">
+       <label for="sexo-f">Feminino</label>
+       <input type="radio" id="sexo-o" name="sexo" value="outro">
+       <label for="sexo-o">Outro</label><br>
+       </div>
+   <div>
+       <label for="elementofav" >Elemento(s) preferido(s):</label><br>
+       <input type="checkbox" id="elemento1" name="elementofav" value="Pyro">
+       <label for="interesse1">Pyro</label>
+       <input type="checkbox" id="elemento2" name="elementofav" value="Hydro">
+       <label for="interesse2">Hydro</label>
+       <input type="checkbox" id="elemento3" name="elementofav" value="Electro">
+       <label for="interesse3">Electro</label>
+       <input type="checkbox" id="elemento4" name="elementofav" value="Cryo">
+       <label for="interesse3">Cryo</label><br>
+       <input type="checkbox" id="elemento5" name="elementofav" value="Anemo">
+       <label for="interesse3">Anemo</label>
+       <input type="checkbox" id="elemento6" name="elementofav" value="Geo">
+       <label for="interesse3">Geo</label>
+       <input type="checkbox" id="elemento7" name="elementofav" value="Dendro">
+       <label for="interesse3">Dendro</label>
+       <input type="checkbox" id="elemento8" name="elementofav" value="Nenhum">
+       <label for="interesse3">Nenhum</label>
+       </div>
+       </fieldset>
+       <div>
+           <input type="Submit" value="Enviar">
+           <input type="reset" value="Limpar">
+           </div>
+           
+   </fieldset>
+   </form>
+</div>
+</body>
+</html>
